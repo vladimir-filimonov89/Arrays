@@ -6,33 +6,21 @@ using std::cout;
 using std::endl;
 
 #define tab "\t"
-//#define LEKCIYA
+
 
 void main()
 {
 	setlocale(LC_ALL, "");
-#ifdef LEKCIYA
-	const int SIZE = 5;
-	int arr[SIZE];
 
-	arr[2] = 2048; //обращение к элементу массива на запись
-	cout << arr[2] << endl; //обращение к элементу массива на чтение
-
-	for (int i = 0; i < SIZE; i++)
-	{
-		cout << arr[i] << "\t";
-	}
-	cout << endl;
-#endif // LEKCIYA
-	cout << double() << endl;
-	//int() - значение по умолчанию дл€ типа 'int'
-	//double() - значение по умолчанию дл€ типа 'double'
+	//cout << double() << endl; будет ноль
+	//cout << int() << endl; - значение по умолчанию дл€ типа 'int'
+	//cout << double() << endl; - значение по умолчанию дл€ типа 'double'
 	const int n = 10;
-	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };
+	int arr[n] = { 0,1,1,2,3,5,8,13,21,34 };//„исла ‘ибоначи
 
 	//¬ывод исходного массива на экран:
 	for (int i = 0; i < n; i++)
-	{
+	{ 
 		cout << arr[i] << tab;
 	}
 	cout << endl;
@@ -52,7 +40,7 @@ void main()
 
 	//¬ывод сдвинутого массива на экран:
 	for (int i = 0; i < n; i++)
-	{
+	{ 
 		cout << arr[i] << tab;
 	}
 	cout << endl;
