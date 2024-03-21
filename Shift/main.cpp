@@ -25,7 +25,7 @@ void main()
 	}
 	cout << endl;
 
-	//Сдвиг массива:
+	////Сдвиг массива влево:
 	int number_of_shifts;
 	cout << "Введите количество сдвигов: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
@@ -37,6 +37,9 @@ void main()
 		}
 		arr[n - 1] = buffer;
 	}
+
+	
+	
 
 	//Вывод сдвинутого массива на экран:
 	for (int i = 0; i < n; i++)
