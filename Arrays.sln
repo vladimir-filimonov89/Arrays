@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arrays", "Arrays\Arrays.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shift", "Shift\Shift.vcxproj", "{66613E23-646D-43C9-AE56-0E32E71ECE3A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "numerics", "numerics\numerics.vcxproj", "{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{66613E23-646D-43C9-AE56-0E32E71ECE3A}.Release|x64.Build.0 = Release|x64
 		{66613E23-646D-43C9-AE56-0E32E71ECE3A}.Release|x86.ActiveCfg = Release|Win32
 		{66613E23-646D-43C9-AE56-0E32E71ECE3A}.Release|x86.Build.0 = Release|Win32
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Debug|x64.ActiveCfg = Debug|x64
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Debug|x64.Build.0 = Debug|x64
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Debug|x86.Build.0 = Debug|Win32
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Release|x64.ActiveCfg = Release|x64
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Release|x64.Build.0 = Release|x64
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Release|x86.ActiveCfg = Release|Win32
+		{54C367EB-CBF5-42D2-87AB-B8C3DAAF31FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
